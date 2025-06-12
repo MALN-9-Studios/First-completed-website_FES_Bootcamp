@@ -10,20 +10,22 @@
     <section>
       <nav>
         <img src="./assets/FES.svg" class="logo" alt="" />
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#discord">Discord</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="anchor__wrapper">
+          <ul>
+            <li><a href="about">About</a></li>
+            <li><a href="dicord">Discord</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </div>
       </nav>
-      <header class="header__height--wrapper">
+      <header>
         <div class="row">
-          <div class="home__description">
+          <div>
             <h1>Best place to learn Frontend</h1>
             <p class="subheader">
               Go from absolute beginner to pro with a simplified process
             </p>
-            <button class="home__description--botton">Start Now</button>
+            <button>Start Now</button>
           </div>
           <figure><img src="./assets/laptop.png" alt="" /></figure>
         </div>
@@ -31,10 +33,10 @@
     </section>
 
     <main>
-      <section class="about__height--wrapper" id="about">
+      <section id="about">
         <h2>About</h2>
         <div class="row">
-          <div class="section__description">
+          <div class="section__discription">
             <div class="section__description--wrapper">
               <p class="section__description--para">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -56,14 +58,14 @@
         </div>
       </section>
 
-      <section class="discord__height--wrapper" id="discord">
+      <section id="discord">
         <h2>Discord</h2>
         <div class="row">
-          <div class="section__description">
+          <div class="section__discription">
             <figure class="about__img--wrapper">
               <img src="./assets/discord.png" alt="Discord" />
             </figure>
-            <div class="section__description--wrapper">
+            <div class=".section__description--wrapper">
               <p class="section__description--para">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores assumenda, repellendus molestiae pariatur sapiente
@@ -97,14 +99,12 @@
     </main>
 
     <footer>
-      <a href="">
-        <img class="footer__logo" src="./assets/FES.svg" alt="" />
-      </a>
+      <img class="footer__logo" src="./assets/FES.svg" alt="" />
       <div class="footer__links">
-        <a class="footer__link" href="#about">About</a>
-        <a class="footer__link" href="#discord">Discord</a>
-        <a class="footer__link" href="#contact">Contact</a>
-        <a class="footer__link" href="">Courses</a>
+        <a class="footer__link" href="about">About</a>
+        <a class="footer__link" href="discord">Discord</a>
+        <a class="footer__link" href="contact">Contact</a>
+        <a class="footer__link" href="courses">Courses</a>
       </div>
       <p>Copyright MALN9 Studios</p>
     </footer>
