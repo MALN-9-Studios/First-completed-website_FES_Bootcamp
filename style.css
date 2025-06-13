@@ -17,13 +17,30 @@ nav {
 
 header {
     background-color: #eadcff;
+<<<<<<< HEAD
     height: calc(100vh - 70px);
+=======
+<<<<<<< HEAD
+    height: 100%;
+=======
+    height: 515px;
+>>>>>>> 521f13da955dbd102148e931b202770d4d5a9dfe
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
     padding: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.header__height--wrapper {
+    height: 515px;
+}
+=======
+>>>>>>> 521f13da955dbd102148e931b202770d4d5a9dfe
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
 
 a {
     color: #000;
@@ -87,11 +104,21 @@ ABOUT
 
 #about {
     background-color: #f8ffdc;
+<<<<<<< HEAD
    
+=======
+<<<<<<< HEAD
+    height: 100%;
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
 }
 
 .about__height--wrapper {
     height: 750px;
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 521f13da955dbd102148e931b202770d4d5a9dfe
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
 }
 
 h2 {
@@ -100,13 +127,24 @@ h2 {
     margin-bottom: 24px;
 }
 
+<<<<<<< HEAD
 .section__description {
+=======
+<<<<<<< HEAD
+.section__description {
+=======
+.section__discription {
+>>>>>>> 521f13da955dbd102148e931b202770d4d5a9dfe
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+<<<<<<< HEAD
 .discord__img--wrapper,
+=======
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
 .about__img--wrapper {
     width: 40%;
 }
@@ -115,6 +153,7 @@ img {
     width: 100%;
 }
 
+<<<<<<< HEAD
 .section__description--wrapper {
     width: 60%;
 }
@@ -123,6 +162,12 @@ img {
 .about__img--wrapper,
 .section__description--wrapper {
        padding: 0 24px;
+=======
+.about__img--wrapper,
+.section__description--wrapper {
+    width: 60%;
+    padding: 0 24px;
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
 }
 .section__description--para {
     font-size: 20px;
@@ -137,9 +182,23 @@ Discord
 */
 
 #discord {
+<<<<<<< HEAD
     background-color: #cefeff;  
 }
 
+=======
+<<<<<<< HEAD
+    background-color: #cefeff;  
+    height: 100%;  
+}
+
+.discord__height--wrapper {
+    height: 750px;
+=======
+    background-color: #cefeff;    
+>>>>>>> 521f13da955dbd102148e931b202770d4d5a9dfe
+}
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
 
 /*
 
@@ -157,7 +216,14 @@ form {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+<<<<<<< HEAD
     padding: 0 24px;
+=======
+<<<<<<< HEAD
+    padding: 0 24px;
+=======
+>>>>>>> 521f13da955dbd102148e931b202770d4d5a9dfe
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
 }
 
 input, textarea {
@@ -182,7 +248,14 @@ footer {
 .footer__logo {
     max-width: 480px;
     margin-bottom: 16px;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+<<<<<<< HEAD
+    cursor: pointer;
+=======
+>>>>>>> 521f13da955dbd102148e931b202770d4d5a9dfe
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
 }
 
 .footer__links {
@@ -193,6 +266,10 @@ footer {
 .footer__link {
     padding: 0 16px;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
 
 /* SMALL PHONES, TABLESTS, LARGE SMARTPHONES */
 @media (max-width: 728px) {
@@ -234,8 +311,12 @@ ul {
     width: 100%;
 }
 
+<<<<<<< HEAD
 .about__img--wrapper,
 .discord__img--wrapper {
+=======
+.about__img--wrapper {
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
     width: 100%;
 }
 
@@ -243,6 +324,7 @@ ul {
     flex-direction: column-reverse;
 }
 
+<<<<<<< HEAD
 footer {
     padding: 48px 24px;
 }
@@ -267,3 +349,9 @@ p {
 
 }
 
+=======
+}
+
+=======
+>>>>>>> 521f13da955dbd102148e931b202770d4d5a9dfe
+>>>>>>> c0fa9c23a8f4dff7e012ffdf8c4630430263ecdd
